@@ -64,10 +64,10 @@
 ### 예측 결과 
 
 #### 1). 오징어 
-|Ground truth |Model |RMSE |
-|-------------|:----:|:---:|
-|: Attention value :|| Facebook Prophet | 0.221        |
-|^^ 기반 가중 평균   || Neural Prophet   | **0.1744**   |
+|Model |RMSE |
+|:----:|:---:|
+| Facebook Prophet | 0.221        |
+| Neural Prophet   | **0.1744**   |
 
 
 
