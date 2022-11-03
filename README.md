@@ -66,8 +66,8 @@
 #### 1). 오징어 
 |Ground truth |Model |RMSE |
 |-------------|:----:|:---:|
-|: Attention value :| Facebook Prophet | 0.221        |
-|^^ 기반 가중 평균   | Neural Prophet   | **0.1744**   |
+|: Attention value :|| Facebook Prophet | 0.221        |
+|^^ 기반 가중 평균   || Neural Prophet   | **0.1744**   |
 
 
 
