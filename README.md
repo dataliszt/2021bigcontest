@@ -1,2 +1,1 @@
-# 2021bigcontest
-데이터분석분야_챔피언리스_수산물수입가격예측
+# Prediction of seafood import price using attention method
