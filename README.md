@@ -70,6 +70,21 @@
 | Neural Prophet   | **0.1744**   |
 
 
+#### 2). 흰다리 새우 
+|Model |RMSE |
+|:----:|:---:|
+| Facebook Prophet(수온 데이터 포함) | 0.755        |
+| Facebook Prophet(수온 데이터 제거) | 0.679   		|
+| Neural Prophet(수온 데이터 포함)   | **0.462**    |
+| Neural Prophet(수온 데이터 제거)   | 0.758        |
+
+
+#### 3). 연어 
+|Model |RMSE |
+|:----:|:---:|
+| Facebook Prophet | **0.8783**        |
+| Neural Prophet   | 0.9697   		   |
+
 
 ## Requirements
 ```
@@ -77,4 +92,26 @@ tensorflow>=2.x
 keras
 prophet
 neuralprophet 
+```
+
+## folder sturcture 
+```
+├─2021bigcontest
+   │  README.md
+   │
+   ├─analysis 
+   │	data_merge.ipynb - 기존 데이터와 외부 데이터 병합 
+   │    eda.ipynb - 탐색적 데이터 분석 
+   │
+   ├─assets - .png 파일들 
+   │
+   ├─crawler 
+   │	data_crawler.ipynb - 외부 데이터(중량 & 수온) 수집 크롤러
+   │
+   ├─model
+   │	각 어종들에 대한 Neural Prophet hyper-parameter search(.ipynb)
+   │
+   ├─*_prediction.ipynb - facebook-prophet & neural-prophet inference file 
+   │
+   ├─main.py - 데이터 병합, 전처리, 예측 통합 실행 파일
 ```
