@@ -2,10 +2,8 @@
 
 ## Requirements
 
-'''
-
+```
 tensorflow>=2.x
 prophet
 neuralprophet 
-
-'''
+```
