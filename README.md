@@ -64,7 +64,11 @@
 ### 예측 결과 
 
 #### 1). 오징어 
-
+|Ground truth |Model |RMSE |
+|-------------|:----:|:---:|
+|                  | ResNet50 | Supervised   |
+|  Attention value | ResNet50 | Supervised   |
+|  기반 가중 평균   | ResNet50 | Unsupervised |
 
 
 ## Requirements
